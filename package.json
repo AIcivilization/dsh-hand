@@ -1,0 +1,43 @@
+{
+  "name": "dsh-hand",
+  "version": "0.1.0",
+  "description": "A small helper hand for DeepSeek Harness (DSH) — reserved scaffold and shared utilities.",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "dsh-hand": "bin/dsh-hand.js"
+  },
+  "scripts": {
+    "check": "node --check index.js && node --check bin/dsh-hand.js",
+    "test": "node test/smoke.js"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "hand",
+    "helper",
+    "scaffold"
+  ],
+  "author": "aicivilization",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIcivilization/dsh-hand.git"
+  },
+  "homepage": "https://github.com/AIcivilization/dsh-hand#readme",
+  "bugs": {
+    "url": "https://github.com/AIcivilization/dsh-hand/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
