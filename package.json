@@ -1,14 +1,14 @@
 {
   "name": "dsh-hand",
-  "version": "0.1.0",
-  "description": "A small helper hand for DeepSeek Harness (DSH) — reserved scaffold and shared utilities.",
+  "version": "0.2.0",
+  "description": "A zero-dependency helper hand for DeepSeek Harness (DSH) scripts — objects, JSON I/O, hashing, subprocesses and retry.",
   "type": "commonjs",
   "main": "index.js",
   "bin": {
     "dsh-hand": "bin/dsh-hand.js"
   },
   "scripts": {
-    "check": "node --check index.js && node --check bin/dsh-hand.js",
+    "check": "node --check index.js && node --check bin/dsh-hand.js && node --check test/smoke.js",
     "test": "node test/smoke.js"
   },
   "files": [
@@ -22,7 +22,8 @@
     "deepseek-harness",
     "hand",
     "helper",
-    "scaffold"
+    "utilities",
+    "zero-dependency"
   ],
   "author": "aicivilization",
   "license": "MIT",
